@@ -15,6 +15,7 @@ int main() {
      */
 //    double volume = 4.0 / 3 * PI * radius * radius * radius;
     double volume = 4.0 / 3 * PI * pow(radius,3);
+//    double volume = PI * pow(radius, 3) * 4 / 3;
 
     printf("%15.4f: surface area\n%15.4f: volume\n", surfaceArea, volume);  // 右对齐
     printf("%-15.4f: surface area\n%-15.4f: volume\n", surfaceArea, volume);  // 左对齐
